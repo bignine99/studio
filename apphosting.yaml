@@ -5,17 +5,5 @@ runConfig:
   # Increase this value if you'd like to automatically spin up
   # more instances in response to increased traffic.
   maxInstances: 1
-  # Add environment variables
-  env:
-    - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
-      value: "construction-safety-dashboard"
-    - variable: NEXT_PUBLIC_APP_TITLE
-      value: "Construction Safety Dashboard"
-    - variable: NEXT_PUBLIC_APP_SUBTITLE
-      value: "AI-Powered Construction Accident Analysis"
-    - variable: NEXT_PUBLIC_FIRESTORE_COLLECTION
-      value: "incidents"
-    - variable: NEXT_PUBLIC_CNU_LOGO_URL
-      value: "https://i.postimg.cc/d1x9rV9G/CSI-Logo-removebg.png"
-    - variable: NEXT_PUBLIC_NINETYNINE_LOGO_URL
-      value: "https://i.postimg.cc/x80mN6S0/NN01.png"
+# Environment variables are now managed in next.config.ts to ensure client-side availability.
+# This prevents hydration errors and ensures the correct Firebase project is used.

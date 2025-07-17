@@ -1,5 +1,11 @@
-import DashboardLayout from '@/components/dashboard/dashboard-layout';
+import DashboardClient from '@/components/dashboard-client';
 
-export default function Home() {
-  return <DashboardLayout />;
+export const dynamic = 'force-dynamic';
+
+export default async function DashboardPage() {
+  // Data fetching is now handled on the client side in DashboardClient
+  // to improve initial page load performance.
+  return (
+    <DashboardClient />
+  );
 }

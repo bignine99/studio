@@ -1,20 +1,19 @@
-# **App Name**: SafeSite Sentinel
+# **App Name**: Construction Safety Insights
 
 ## Core Features:
 
-- Data Upload: Allows authorized personnel to upload site photos, observations, and safety inspection reports.
-- Safety Dashboard: Provides an intuitive dashboard interface for monitoring key safety metrics and trends.
-- Data Visualization: Presents visualized data through interactive charts and graphs.
-- Hazard Identification: Uses a generative AI tool to identify potential safety hazards in uploaded images based on computer vision models, such as missing safety gear or unsafe practices, providing warnings and suggestions.
-- Alert System: Provides the option to set custom alerts and notifications for safety incidents or deviations from safety standards.
-- User Roles and Permissions: Offers role-based access control for various team members, such as safety officers, site supervisors, and workers.
+- Main Dashboard Layout: Displays the core dashboard elements including a sidebar and main content area.
+- Data Filtering: Filters data displayed on dashboard based on project type, project cost, and accident cause.
+- Key Metrics Cards: Summarizes key metrics, such as total number of accidents and average severity index, on cards.
+- Data Visualization Charts: Shows accident data categorized by cause (bar graph) and construction type (pie chart).
+- AI Thematic Analysis: Analyzes filtered accident descriptions using a Genkit Flow to identify themes and suggest preventative measures.
+- AI findings: Presents key accident themes derived by the AI service
+- Preventative Measures: Presents the potential preventative measures, using the output of an LLM configured as a tool
 
 ## Style Guidelines:
 
-- Primary color: Strong blue (#2962FF) to convey trust, stability, and safety.
-- Background color: Light gray (#F0F4F9) to maintain a clean and professional appearance.
-- Accent color: Orange (#FF9100) to highlight warnings, alerts, and calls to action, grabbing attention where safety is concerned.
-- Body and headline font: 'Inter' sans-serif for readability and a modern, objective feel. 
-- Use clear and recognizable safety-related icons, in a consistent style.
-- Prioritize a clean, grid-based layout with well-defined sections for different safety metrics.
-- Subtle animations to provide feedback on user interactions and draw attention to important data updates.
+- Primary color: Deep Blue (#293B5F) for trust and stability.
+- Background color: Light Gray (#D3D5D8) for a neutral backdrop.
+- Accent color: Orange (#E07A5F) for interactive elements.
+- Body and headline font: 'Inter' (sans-serif) for a modern and neutral feel. Note: currently only Google Fonts are supported.
+- Sidebar on the left for filters, main content on the right.

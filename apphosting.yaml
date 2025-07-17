@@ -7,6 +7,8 @@ runConfig:
   maxInstances: 1
   # Add environment variables
   env:
+    - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+      value: "construction-safety-dashboard"
     - variable: NEXT_PUBLIC_APP_TITLE
       value: "Construction Safety Dashboard"
     - variable: NEXT_PUBLIC_APP_SUBTITLE

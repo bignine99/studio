@@ -32,7 +32,7 @@ export default function DashboardLayout() {
         <SidebarHeader>
           <div className="flex h-8 items-center gap-2 p-2">
             <Shield className="size-6 text-primary" />
-            <span className="text-lg font-semibold">SafeSite</span>
+            <span className="text-lg font-semibold">CSD</span>
           </div>
         </SidebarHeader>
         <SidebarContent>

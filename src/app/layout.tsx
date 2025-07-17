@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'SafeSite Sentinel',
+  title: 'Construction Safety Dashboard',
   description: 'An AI-powered dashboard for construction site safety monitoring.',
 };
 
